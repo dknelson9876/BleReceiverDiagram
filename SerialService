@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T15:28:07.990Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.2.0" etag="4wKNIRBuNNzbj8vVOLDd" type="github"><diagram id="p4jsJY65oLyDwOEvJGzh">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-28T17:06:53.056Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="MzVn0Nhe08YyAeVa77IU" version="20.2.0" type="github">
+  <diagram id="p4jsJY65oLyDwOEvJGzh" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cesr_78IQLsZPqXBVf0M-1" value="&lt;font&gt;onCreate() {}&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="50" y="110" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cesr_78IQLsZPqXBVf0M-2" value="onAttach {&lt;br&gt;&amp;nbsp; &amp;nbsp; bindService()&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="50" y="20" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cesr_78IQLsZPqXBVf0M-3" value="onStart() {&lt;br&gt;&amp;nbsp; &amp;nbsp; service.attach()&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="50" y="180" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cesr_78IQLsZPqXBVf0M-4" value="onResume() {&lt;br&gt;&amp;nbsp; &amp;nbsp; connect()&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="50" y="280" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cesr_78IQLsZPqXBVf0M-5" value="onPause() {}" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="50" y="370" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cesr_78IQLsZPqXBVf0M-6" value="onStop() {&lt;br&gt;&amp;nbsp; &amp;nbsp; detach()&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="50" y="430" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cesr_78IQLsZPqXBVf0M-7" value="onDestroy() {&lt;br&gt;&amp;nbsp; &amp;nbsp; disconnect()&lt;br&gt;&amp;nbsp; &amp;nbsp; stopService()&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="50" y="510" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cesr_78IQLsZPqXBVf0M-8" value="onDetach() {&lt;br&gt;&amp;nbsp; &amp;nbsp; unbindService()&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="50" y="600" width="150" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
